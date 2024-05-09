@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    streetName St.<br />
+    Cupertino, CA *area code*<br />
+    <abbr title="Phone">P:</abbr>
+    *Phone*
+</address>
+
+<address>
+    <strong>Contact1:</strong>   <a href="mailto:club@example.com">club@example.com</a><br />
+    <strong>Contact2:</strong> <a href="mailto:email2@example.com">email2@example.com</a>
+</address>
+
+{% endblock %}
